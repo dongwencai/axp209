@@ -1,0 +1,121 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AXP209_ACIN_INSERT	axp209_event.h	10;"	d
+AXP209_ACIN_REMOVE	axp209_event.h	11;"	d
+AXP209_CHARGING	axp209_event.h	8;"	d
+AXP209_CHARG_FINISHED	axp209_event.h	9;"	d
+AXP209_CLEAR_IRQ_MASK	axp209.h	16;"	d
+AXP209_DEV_NAME	axp209.h	8;"	d
+AXP209_GET_ADDR	axp209.h	23;"	d
+AXP209_GET_ELEC	axp209.h	13;"	d
+AXP209_GET_IRQ_MASK	axp209.h	15;"	d
+AXP209_GET_REG	axp209.h	11;"	d
+AXP209_IOC_MAGIC	axp209.h	9;"	d
+AXP209_PEK_PRESS	axp209_event.h	4;"	d
+AXP209_PEK_PRESS_LONG	axp209_event.h	5;"	d
+AXP209_SET_IRQ_MASK	axp209.h	14;"	d
+AXP209_SET_REG	axp209.h	12;"	d
+AXP209_SET_TIMER	axp209_event.h	12;"	d
+AXP209_VBUS_INSERT	axp209_event.h	6;"	d
+AXP209_VBUS_REMOVE	axp209_event.h	7;"	d
+CLR_BIT	axp209.h	6;"	d
+CONFIG_RALINK_MT7620	mt7620a_reg.h	4;"	d
+GPIO_39_24_DATA	mt7620a_reg.h	27;"	d
+GPIO_39_24_DATA_OFFSET	mt7620a_reg.h	9;"	d
+GPIO_39_24_DIR	mt7620a_reg.h	28;"	d
+GPIO_39_24_DIR_OFFSET	mt7620a_reg.h	10;"	d
+GPIO_39_24_EDGE	mt7620a_reg.h	30;"	d
+GPIO_39_24_EDGE_OFFSET	mt7620a_reg.h	12;"	d
+GPIO_39_24_FMASK	mt7620a_reg.h	32;"	d
+GPIO_39_24_FMASK_OFFSET	mt7620a_reg.h	14;"	d
+GPIO_39_24_INT	mt7620a_reg.h	29;"	d
+GPIO_39_24_INT_OFFSET	mt7620a_reg.h	11;"	d
+GPIO_39_24_RMASK	mt7620a_reg.h	31;"	d
+GPIO_39_24_RMASK_OFFSET	mt7620a_reg.h	13;"	d
+GPIO_71_40_DATA	mt7620a_reg.h	35;"	d
+GPIO_71_40_DATA_OFFSET	mt7620a_reg.h	16;"	d
+GPIO_71_40_DIR	mt7620a_reg.h	36;"	d
+GPIO_71_40_DIR_OFFSET	mt7620a_reg.h	17;"	d
+GPIO_71_40_EDGE	mt7620a_reg.h	38;"	d
+GPIO_71_40_EDGE_OFFSET	mt7620a_reg.h	19;"	d
+GPIO_71_40_FMASK	mt7620a_reg.h	40;"	d
+GPIO_71_40_FMASK_OFFSET	mt7620a_reg.h	21;"	d
+GPIO_71_40_INT	mt7620a_reg.h	37;"	d
+GPIO_71_40_INT_OFFSET	mt7620a_reg.h	18;"	d
+GPIO_71_40_RMASK	mt7620a_reg.h	39;"	d
+GPIO_71_40_RMASK_OFFSET	mt7620a_reg.h	20;"	d
+GPIO_IRQ_NUM	axp209.c	33;"	d	file:
+GPIO_MODE	mt7620a_reg.h	25;"	d
+GPIO_MODE_OFFSET	mt7620a_reg.h	8;"	d
+INTENA	mt7620a_reg.h	33;"	d
+INTENA_OFFSET	mt7620a_reg.h	23;"	d
+MonitorNetlinkUevent	demo.c	/^void MonitorNetlinkUevent()  $/;"	f
+RAW_NOTIFIER_HEAD	axp209.c	/^static RAW_NOTIFIER_HEAD(axp209_chain);$/;"	p	file:
+SET_BIT	axp209.h	5;"	d
+_AXP209_H	axp209.h	2;"	d
+__AXP209_EVENT_H__	axp209_event.h	2;"	d
+__MT7620A_REG_H__	mt7620a_reg.h	2;"	d
+__anon1::cdev_class	axp209.c	/^    struct class *cdev_class;$/;"	m	struct:__anon1	typeref:struct:__anon1::class	file:	access:public
+__anon1::client	axp209.c	/^    struct i2c_client *client;$/;"	m	struct:__anon1	typeref:struct:__anon1::i2c_client	file:	access:public
+__anon1::dev	axp209.c	/^    dev_t dev;$/;"	m	struct:__anon1	file:	access:public
+__anon1::dev_c	axp209.c	/^    struct cdev dev_c;$/;"	m	struct:__anon1	typeref:struct:__anon1::cdev	file:	access:public
+__anon1::irq_mask	axp209.c	/^    unsigned int irq_mask;$/;"	m	struct:__anon1	file:	access:public
+__anon1::irq_status	axp209.c	/^    unsigned char irq_status[5];$/;"	m	struct:__anon1	file:	access:public
+__anon1::work	axp209.c	/^    struct work_struct work;$/;"	m	struct:__anon1	typeref:struct:__anon1::work_struct	file:	access:public
+__module_depends	axp209.mod.c	/^static const char __module_depends[]$/;"	p	file:	signature:(section(Ó))
+axp209_driver	axp209.c	/^module_i2c_driver(axp209_driver);$/;"	v
+axp209_driver	axp209.c	/^static struct i2c_driver axp209_driver = {$/;"	v	typeref:struct:i2c_driver	file:
+axp209_fops	axp209.c	/^struct file_operations axp209_fops = {$/;"	v	typeref:struct:file_operations
+axp209_fops	axp209.c	/^struct file_operations axp209_fops;$/;"	v	typeref:struct:file_operations
+axp209_id	axp209.c	/^static const struct i2c_device_id axp209_id[] = {$/;"	v	typeref:struct:i2c_device_id	file:
+axp209_info	axp209.c	/^}axp209_info;$/;"	v	typeref:struct:__anon1
+axp209_ioctl	axp209.c	/^long axp209_ioctl (struct file *, unsigned int, unsigned long);$/;"	p	file:	signature:(struct file *, unsigned int, unsigned long)
+axp209_ioctl	axp209.c	/^long axp209_ioctl (struct file *i, unsigned int cmd, unsigned long arg)$/;"	f	signature:(struct file *i, unsigned int cmd, unsigned long arg)
+axp209_irq	axp209.c	/^irqreturn_t axp209_irq(int irq, void *data)$/;"	f	signature:(int irq, void *data)
+axp209_irq_enable	axp209.c	/^static void axp209_irq_enable()$/;"	f	file:
+axp209_irq_status_clear	axp209.c	/^static void axp209_irq_status_clear()$/;"	f	file:
+axp209_irq_status_clear	axp209.c	/^static void axp209_irq_status_clear();$/;"	p	file:
+axp209_irq_status_read	axp209.c	/^static void axp209_irq_status_read()$/;"	f	file:
+axp209_of_match	axp209.c	/^static const struct of_device_id axp209_of_match[] = {$/;"	v	typeref:struct:of_device_id	file:
+axp209_open	axp209.c	/^int axp209_open (struct inode *, struct file *);$/;"	p	file:	signature:(struct inode *, struct file *)
+axp209_open	axp209.c	/^int axp209_open (struct inode *i, struct file *f)$/;"	f	signature:(struct inode *i, struct file *f)
+axp209_probe	axp209.c	/^static int axp209_probe(struct i2c_client *client,const struct i2c_device_id *id)$/;"	f	file:	signature:(struct i2c_client *client,const struct i2c_device_id *id)
+axp209_readData	axp209.c	/^static int axp209_readData(struct i2c_client *client, unsigned char reg,unsigned char *value)$/;"	f	file:	signature:(struct i2c_client *client, unsigned char reg,unsigned char *value)
+axp209_read_a8_d8	axp209.c	/^int axp209_read_a8_d8(struct i2c_client *client, unsigned char addr,unsigned char *value)$/;"	f	signature:(struct i2c_client *client, unsigned char addr,unsigned char *value)
+axp209_read_a8_d8	axp209.c	/^int axp209_read_a8_d8(struct i2c_client *client, unsigned char addr,unsigned char *value);$/;"	p	file:	signature:(struct i2c_client *client, unsigned char addr,unsigned char *value)
+axp209_release	axp209.c	/^int axp209_release (struct inode *, struct file *);$/;"	p	file:	signature:(struct inode *, struct file *)
+axp209_release	axp209.c	/^int axp209_release (struct inode *i, struct file *f)$/;"	f	signature:(struct inode *i, struct file *f)
+axp209_remove	axp209.c	/^static int axp209_remove(struct i2c_client *client)$/;"	f	file:	signature:(struct i2c_client *client)
+axp209_sendData	axp209.c	/^static int axp209_sendData(struct i2c_client *client, unsigned char reg,unsigned char value)$/;"	f	file:	signature:(struct i2c_client *client, unsigned char reg,unsigned char value)
+axp209_write_a8_d8	axp209.c	/^int axp209_write_a8_d8(struct i2c_client *client, unsigned char addr,unsigned char value)$/;"	f	signature:(struct i2c_client *client, unsigned char addr,unsigned char value)
+axp209_write_a8_d8	axp209.c	/^int axp209_write_a8_d8(struct i2c_client *client, unsigned char addr,unsigned char value);$/;"	p	file:	signature:(struct i2c_client *client, unsigned char addr,unsigned char value)
+call_axp209_notifiers	axp209.c	/^EXPORT_SYMBOL(call_axp209_notifiers);$/;"	v
+call_axp209_notifiers	axp209.c	/^static int call_axp209_notifiers(unsigned long val, void *v)$/;"	f	file:	signature:(unsigned long val, void *v)
+cdev_class	axp209.c	/^    struct class *cdev_class;$/;"	m	struct:__anon1	typeref:struct:__anon1::class	file:	access:public
+client	axp209.c	/^    struct i2c_client *client;$/;"	m	struct:__anon1	typeref:struct:__anon1::i2c_client	file:	access:public
+dev	axp209.c	/^    dev_t dev;$/;"	m	struct:__anon1	file:	access:public
+dev_c	axp209.c	/^    struct cdev dev_c;$/;"	m	struct:__anon1	typeref:struct:__anon1::cdev	file:	access:public
+gpio33_irq_init	axp209.c	/^void gpio33_irq_init()$/;"	f
+hex2int	axp.c	/^int hex2int(char *szhex)$/;"	f	signature:(char *szhex)
+irq_mask	axp209.c	/^    unsigned int irq_mask;$/;"	m	struct:__anon1	file:	access:public
+irq_status	axp209.c	/^    unsigned char irq_status[5];$/;"	m	struct:__anon1	file:	access:public
+irq_status_reg_to_event	axp209.c	/^static unsigned int irq_status_reg_to_event()$/;"	f	file:
+main	axp.c	/^int main(int argc, char *argv[])$/;"	f	signature:(int argc, char *argv[])
+main	demo.c	/^int main(int argc,char **argv)  $/;"	f	signature:(int argc,char **argv)
+module	axp209.mod.c	/^struct module __this_module$/;"	p	file:	signature:(section(Ó))
+reg_map	axp209.c	/^const unsigned char reg_map[] = {21, 20, 6, 12, 13, 12, 6, 5, 47};$/;"	v
+register_axp209_notifier	axp209.c	/^EXPORT_SYMBOL(register_axp209_notifier);$/;"	v
+register_axp209_notifier	axp209.c	/^static int register_axp209_notifier(struct notifier_block *nb)$/;"	f	file:	signature:(struct notifier_block *nb)
+send_irq_status	axp209.c	/^static void send_irq_status(struct work_struct*data)$/;"	f	file:	signature:(struct work_struct*data)
+send_irq_status	axp209.c	/^static void send_irq_status(struct work_struct*data);$/;"	p	file:	signature:(struct work_struct*data)
+str2int	axp.c	/^int str2int(char *hex)$/;"	f	signature:(char *hex)
+unregister_axp209_notifier	axp209.c	/^EXPORT_SYMBOL(unregister_axp209_notifier);$/;"	v
+unregister_axp209_notifier	axp209.c	/^static int unregister_axp209_notifier(struct notifier_block *nb)$/;"	f	file:	signature:(struct notifier_block *nb)
+usage	axp.c	/^void usage() __attribute__ ((noreturn));$/;"	p	file:
+usage	axp.c	/^void usage()$/;"	f
+usb_power_on	axp209.c	/^static void  usb_power_on()$/;"	f	file:
+work	axp209.c	/^    struct work_struct work;$/;"	m	struct:__anon1	typeref:struct:__anon1::work_struct	file:	access:public

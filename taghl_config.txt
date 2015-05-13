@@ -1,0 +1,3 @@
+IncludeLocals:True
+UserLibraries:/home/mrdong/openwrt/openwrt/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/linux-ramips_mt7620a/linux-3.10.49/types_c.taghl
+TagFileDirectory:.

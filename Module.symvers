@@ -1,0 +1,4 @@
+0x00000000	unregister_axp209_notifier	/home/mrdong/openwrt/openwrt/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/linux-ramips_mt7620a/driver_dev/axp209_drv/axp209	EXPORT_SYMBOL
+0x00000000	rgbled_notifier	/home/mrdong/openwrt/openwrt/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/linux-ramips_mt7620a/driver_dev/rgbled/rgbled	EXPORT_SYMBOL
+0x00000000	register_axp209_notifier	/home/mrdong/openwrt/openwrt/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/linux-ramips_mt7620a/driver_dev/axp209_drv/axp209	EXPORT_SYMBOL
+0x00000000	call_axp209_notifiers	/home/mrdong/openwrt/openwrt/build_dir/target-mipsel_24kec+dsp_uClibc-0.9.33.2/linux-ramips_mt7620a/driver_dev/axp209_drv/axp209	EXPORT_SYMBOL
